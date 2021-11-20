@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import Button from '../src/components/Button';
+
+import Header from '../src/containers/Header.jsx';
+import GridHome from "../src/containers/GridHome";
 
 function App() {
   return (
     <div className="App">
-      <Button/>
+        <Header/>
+        <GridHome/>
     </div>
   );
 }
